@@ -12,4 +12,4 @@ oldpeak,float64,0,0.0,40
 slope,float64,0,0.0,3
 ca,float64,4,1.32,4
 thal,float64,2,0.66,3
-target,int32,0,0.0,2
+target,int64,0,0.0,2

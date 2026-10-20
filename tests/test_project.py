@@ -60,3 +60,6 @@ def test_pipeline_handles_missing_values():
     assert len(prediction) == 1
     assert prediction[0] in (0, 1)
     assert 0.0 <= probability <= 1.0
+
+def test_ci_failure_detection():
+    assert False
